@@ -5,8 +5,9 @@ import Nav from 'react-bootstrap/Nav';
 class Header extends Component {
     render() {
       return (
-        <Navbar bg="light" expand="lg" fixed="top">
-          <Navbar.Brand href="#home" className="text-dark">NBA-daily</Navbar.Brand>
+        <Navbar bg="info" fixed="top">
+          <Navbar.Brand href="#home" className="text-white">NBA-daily</Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav" className="justify-content-center">
             <Nav>
               <Nav.Link href="#teams">Teams</Nav.Link>
