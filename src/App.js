@@ -6,7 +6,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
 const cardsList = (
-  <Row className="d-flex justify-content-around">
+  <Row className="row-cols-1 row-cols-sm-2 row-cols-md-4">
     <Cards name="Kawhi" surname="Leonard" team="LAC"/>
     <Cards name="Alex" surname="Len" team="ATL"/>
     <Cards name="LeBron" surname="James" team="LAL"/>
