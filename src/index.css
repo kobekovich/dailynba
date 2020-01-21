@@ -13,8 +13,14 @@ code {
     monospace;
 }
 
-@media (max-width: 768px) { 
+@media (max-width: 767px) { 
   body {
-    padding-top: 65px;;
+    padding-top: 65px;
    }
+}
+
+@media (min-width: 992px) {
+  .classTitle {
+    font-size: 16px !important;
   }
+}

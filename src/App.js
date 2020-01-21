@@ -6,15 +6,15 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
 const cardsList = (
-  <Row className="row-cols-1 row-cols-sm-2 row-cols-md-4">
-    <Cards name="Kawhi" surname="Leonard" team="LAC"/>
-    <Cards name="Alex" surname="Len" team="ATL"/>
-    <Cards name="LeBron" surname="James" team="LAL"/>
-    <Cards name="Svi" surname="Mykhailiuk" team="DET"/>
-    <Cards name="Luca" surname="Doncic" team="DAL"/>
-    <Cards name="Jason" surname="Tatum" team="BOS"/>
-    <Cards name="Stephen" surname="Curry" team="GSW"/>
-    <Cards name="Kobe" surname="Bryant" team="LAL"/>
+  <Row className="justify-content-center">
+    <Cards name="Kawhi" surname="Leonard" team="LAC" src="./assets/kawhi.png"/>
+    <Cards name="Alex" surname="Len" team="ATL" src="./assets/len.png"/>
+    <Cards name="LeBron" surname="James" team="LAL" src="./assets/lbj.png"/>
+    <Cards name="Svi" surname="Mykhailiuk" team="DET" src="./assets/svi.png"/>
+    <Cards name="Luka" surname="Doncic" team="DAL" src="./assets/luka.png"/>
+    <Cards name="Jason" surname="Tatum" team="BOS" src="./assets/tatum.png"/>
+    <Cards name="Stephen" surname="Curry" team="GSW" src="./assets/curry.png"/>
+    <Cards name="Derrick" surname="Rose" team="DET" src="./assets/rose.png"/>
   </Row>
 );
 

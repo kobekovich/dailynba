@@ -18,7 +18,7 @@ class Header extends Component {
               <Nav.Link href="#players">Players</Nav.Link>
               <Nav.Link href="#standing">Standing</Nav.Link>
               <Nav.Link href="#scores">Scores</Nav.Link>
-              <Nav.Link href="#news">News</Nav.Link>
+              <Nav.Link href="#news">Fantasy</Nav.Link>
             </Nav>
             <Form inline>
                 <FormControl type="text" placeholder="Search" className="mr-sm-2" />
